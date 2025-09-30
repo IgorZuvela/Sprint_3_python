@@ -18,6 +18,9 @@ O sistema é modular, onde cada função em Python simula um componente real, ga
 | **Baterias** | Variável `self.nivel_bateria` | Armazena o saldo energético. Sua porcentagem é exibida e influencia a decisão do Inversor sobre o uso da Rede. |
 | **Automação** | `app.toggle_aparelho()` | A ação do usuário (clicar no botão) altera o estado de um aparelho, o que força um novo cálculo de Consumo Total, **integrando a automação ao fluxo de energia**. |
 | **HMI (Dashboard)** | `app.py` (Streamlit) | Exibe as métricas calculadas pelo Inversor e o **Gráfico em Tempo Real** (`st.line_chart`) dos dados de Geração e Consumo. |
+
+---
+
 | Critério Atendido no SPRINT 3 | Descrição |
 | :--- | :--- |
 | **Integração e Funcionamento** | Demonstração da alteração de consumo (Automação) e seu impacto imediato no nível da bateria (Inversor). |
