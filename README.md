@@ -14,6 +14,8 @@ O protótipo utiliza Python e Streamlit para criar um Dashboard interativo que s
 
 ---
 
+OBS: Para rodar a simulação digitar no terminal streamlit run app.py
+
 Integrantes : 
 
 Miguel Vanucci Delgado RM- 563491
